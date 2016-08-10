@@ -13,4 +13,4 @@ docker run -it --rm \
   --volume=/tmp/.X11-unix:/tmp/.X11-unix \
   -e DISPLAY=unix$DISPLAY \
   -e LANG \
-  hainesr/quant_sustain
+  hainesr/sustainment
