@@ -1,0 +1,16 @@
+#!/bin/bash
+#------------------------------------------------------------------------------
+# Copyright (c) 2016, The University of Manchester, UK.
+#
+# BSD licenced. See LICENCE for details.
+#
+# Author: Robert Haines
+#------------------------------------------------------------------------------
+
+docker run -it --rm \
+  --name quantifying_sustainability \
+  --volume=$(pwd):/opt/analysis/output \
+  --volume=/tmp/.X11-unix:/tmp/.X11-unix \
+  -e DISPLAY=unix$DISPLAY \
+  -e LANG \
+  hainesr/quant_sustain
