@@ -2,7 +2,7 @@
 
 ## Aseel Aldabjan, Robert Haines and Caroline Jay
 
-*Materials related to our sustainment analysis work for WSSSPE'4*
+*Materials related to our sustainment analysis work for [WSSSPE'4](http://wssspe.researchcomputing.org.uk/wssspe4/)*
 
 ### Usage
 
